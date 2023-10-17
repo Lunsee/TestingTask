@@ -1,0 +1,16 @@
+{% load menu_menu %}
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Моя страница</title>
+
+    </head>
+    <body>
+        <div id="menu1">
+            {% draw_menu 'Block1' current_url %}
+        </div>
+        <div id="menu2">
+            {% draw_menu 'Block2' current_url %}
+        </div>
+    </body>
+</html>
